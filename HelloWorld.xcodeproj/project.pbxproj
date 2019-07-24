@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		4A3A663022DEFE2E00427D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A662F22DEFE2E00427D84 /* AppDelegate.m */; };
 		4A3A663322DEFE2E00427D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A663222DEFE2E00427D84 /* ViewController.m */; };
-		4A3A663622DEFE2E00427D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A663422DEFE2E00427D84 /* Main.storyboard */; };
 		4A3A663822DEFE2F00427D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A663722DEFE2F00427D84 /* Assets.xcassets */; };
 		4A3A663B22DEFE2F00427D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A663922DEFE2F00427D84 /* LaunchScreen.storyboard */; };
 		4A3A663E22DEFE2F00427D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A663D22DEFE2F00427D84 /* main.m */; };
 		4A3A664822DEFE2F00427D84 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A664722DEFE2F00427D84 /* HelloWorldTests.m */; };
 		4A3A665322DEFE2F00427D84 /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A665222DEFE2F00427D84 /* HelloWorldUITests.m */; };
+		4A3A666022DF00F100427D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A663422DEFE2E00427D84 /* Main.storyboard */; };
+		4AAD642A22E848D000B30D4D /* 123.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AAD642922E848D000B30D4D /* 123.txt */; };
+		4AAD642C22E8497700B30D4D /* 789.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AAD642B22E8497700B30D4D /* 789.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4A3A664E22DEFE2F00427D84 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3A665222DEFE2F00427D84 /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		4A3A665422DEFE2F00427D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAD642922E848D000B30D4D /* 123.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 123.txt; sourceTree = "<group>"; };
+		4AAD642B22E8497700B30D4D /* 789.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 789.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				4A3A664622DEFE2F00427D84 /* HelloWorldTests */,
 				4A3A665122DEFE2F00427D84 /* HelloWorldUITests */,
 				4A3A662C22DEFE2E00427D84 /* Products */,
+				4AAD642922E848D000B30D4D /* 123.txt */,
+				4AAD642B22E8497700B30D4D /* 789.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3A666022DF00F100427D84 /* Main.storyboard in Resources */,
 				4A3A663B22DEFE2F00427D84 /* LaunchScreen.storyboard in Resources */,
 				4A3A663822DEFE2F00427D84 /* Assets.xcassets in Resources */,
-				4A3A663622DEFE2E00427D84 /* Main.storyboard in Resources */,
+				4AAD642C22E8497700B30D4D /* 789.txt in Resources */,
+				4AAD642A22E848D000B30D4D /* 123.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
